@@ -1,0 +1,71 @@
+.board-write-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh; /* 필요에 따라 높이 조정 */
+    flex-direction: column;
+}
+
+.board-write-box {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+    width: 400px; /* 너비를 적절히 조정 */
+    box-shadow: 0px 4px 10px rgba(82, 80, 80, 0.1);
+}
+
+.board-write-title {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.board-write-input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+.board-write-button {
+    width: 50%;
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+    background-color: #FFDFF6;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.board-write-button:hover {
+    background-color: #f5b7e3;
+}
+
+.div {
+    color: red;
+    font-size: 10pt;
+    margin-bottom: 10px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 10px; 
+}
+
+.board-reset-button {
+    width: 48%; 
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    background-color: #EDE1FF; 
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.board-reset-button:hover {
+    background-color: #e0e0e0;
+}
