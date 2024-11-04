@@ -10,7 +10,7 @@ const BoardDetailForm = () => {
     const navigate = useNavigate();
 
     useEffect(() => {
-        axios.get(`http://localhost:8080/spring/board/detail?seq=${seq}`)
+        axios.get(`http://175.45.200.70:8090/spring/board/detail?seq=${seq}`)
             .then(res => {
                 console.log('게시글 데이터:', res.data);
                 setDto(res.data);
