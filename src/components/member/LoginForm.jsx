@@ -24,7 +24,7 @@ const LoginForm = () => {
         else if(!pwd)
             setPwdDiv('비밀번호를 입력해주세요')
         else{
-            axios.get(`http://localhost:8080/spring/member/login?id=${id}&pwd=${pwd}`, {
+            axios.get(`http://175.45.200.70:8090/spring/member/login?id=${id}&pwd=${pwd}`, {
                 withCredentials: true
             })
                 .then(res => {
