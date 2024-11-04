@@ -25,7 +25,7 @@ const BoardWriteForm = () => {
         else {
             axios
                 .post(
-                    `http://175.45.200.70:8090/spring/board/write?subject',
+                    'http://175.45.200.70:8090/spring/board/write?subject',
                      null, 
                      {  params : {subject: subject, content: content},
                         withCredentials: true
