@@ -8,7 +8,7 @@ const BoardListForm = () => {
 
     
     useEffect(() => {
-        axios.get(`http://175.45.200.70:8090/spring/board/list')
+        axios.get('http://175.45.200.70:8090/spring/board/list')
             .then(res => {
                 console.log('응답 데이터:', res.data); 
                 setList(res.data);
